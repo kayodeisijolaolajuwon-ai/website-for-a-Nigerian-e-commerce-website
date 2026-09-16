@@ -1,1 +1,0 @@
-# website-for-a-Nigerian-e-commerce-website

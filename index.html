@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaijaStore | Shop Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Naija<span>Store</span></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#delivery">Delivery</a>
+        </nav>
+
+        <div class="cart">
+            🛒 Cart <span id="cart-count">0</span>
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="small-title">🇳🇬 SHOP LOCAL. SHOP SMART.</p>
+
+            <h1>
+                Everything You Need,
+                <span>Delivered To You.</span>
+            </h1>
+
+            <p>
+                Discover quality products at affordable prices.
+                Order easily and get fast delivery anywhere in Nigeria.
+            </p>
+
+            <a href="#products" class="btn">Shop Now →</a>
+        </div>
+
+        <div class="hero-card">
+            <div class="hero-product">🛍️</div>
+            <p>Quality Products</p>
+            <strong>Fast Delivery</strong>
+        </div>
+    </section>
+
+
+    <!-- FEATURES -->
+    <section class="features">
+
+        <div class="feature">
+            <div>🚚</div>
+            <h3>Fast Delivery</h3>
+            <p>Delivery available across Nigeria.</p>
+        </div>
+
+        <div class="feature">
+            <div>💳</div>
+            <h3>Secure Payment</h3>
+            <p>Pay safely and conveniently.</p>
+        </div>
+
+        <div class="feature">
+            <div>📱</div>
+            <h3>WhatsApp Orders</h3>
+            <p>Order directly through WhatsApp.</p>
+        </div>
+
+        <div class="feature">
+            <div>⭐</div>
+            <h3>Quality Products</h3>
+            <p>Products carefully selected for you.</p>
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORIES -->
+    <section class="section" id="categories">
+
+        <div class="section-heading">
+            <p>EXPLORE</p>
+            <h2>Shop By Category</h2>
+        </div>
+
+        <div class="categories">
+
+            <div class="category">
+                👕
+                <h3>Fashion</h3>
+            </div>
+
+            <div class="category">
+                📱
+                <h3>Electronics</h3>
+            </div>
+
+            <div class="category">
+                👟
+                <h3>Shoes</h3>
+            </div>
+
+            <div class="category">
+                💄
+                <h3>Beauty</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTS -->
+    <section class="section products-section" id="products">
+
+        <div class="section-heading">
+            <p>OUR COLLECTION</p>
+            <h2>Popular Products</h2>
+        </div>
+
+        <div class="products">
+
+            <div class="product">
+                <div class="product-image">👟</div>
+
+                <div class="product-info">
+                    <p>Fashion</p>
+                    <h3>Classic Sneakers</h3>
+
+                    <div class="price">
+                        ₦35,000
+                    </div>
+
+                    <button
+                        onclick="addToCart('Classic Sneakers', 35000)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <div class="product-image">🎧</div>
+
+                <div class="product-info">
+                    <p>Electronics</p>
+                    <h3>Wireless Headphones</h3>
+
+                    <div class="price">
+                        ₦28,500
+                    </div>
+
+                    <button
+                        onclick="addToCart('Wireless Headphones', 28500)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <div class="product-image">⌚</div>
+
+                <div class="product-info">
+                    <p>Accessories</p>
+                    <h3>Smart Watch</h3>
+
+                    <div class="price">
+                        ₦45,000
+                    </div>
+
+                    <button
+                        onclick="addToCart('Smart Watch', 45000)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <div class="product-image">👜</div>
+
+                <div class="product-info">
+                    <p>Fashion</p>
+                    <h3>Luxury Handbag</h3>
+
+                    <div class="price">
+                        ₦32,000
+                    </div>
+
+                    <button
+                        onclick="addToCart('Luxury Handbag', 32000)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- DELIVERY -->
+    <section class="delivery" id="delivery">
+
+        <div>
+            <p>DELIVERY ACROSS NIGERIA 🇳🇬</p>
+
+            <h2>
+                Order Today.
+                <span>Get It Delivered.</span>
+            </h2>
+
+            <p>
+                We deliver to Lagos, Abuja, Port Harcourt, Ibadan,
+                Benin, Enugu and other locations across Nigeria.
+            </p>
+        </div>
+
+        <a
+            href="https://wa.me/2348000000000"
+            target="_blank"
+            class="whatsapp">
+            💬 Order on WhatsApp
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            Naija<span>Store</span>
+        </div>
+
+        <p>
+            Quality products. Affordable prices. Delivered to your doorstep.
+        </p>
+
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">TikTok</a>
+            <a href="#">WhatsApp</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 NaijaStore. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- CART POPUP -->
+    <div class="cart-popup" id="cart-popup">
+
+        <div class="cart-box">
+
+            <button class="close" onclick="closeCart()">×</button>
+
+            <h2>Your Cart</h2>
+
+            <div id="cart-items"></div>
+
+            <div class="cart-total">
+                Total: <strong id="cart-total">₦0</strong>
+            </div>
+
+            <button class="checkout" onclick="checkoutWhatsApp()">
+                💬 Checkout on WhatsApp
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
